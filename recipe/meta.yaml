@@ -1,5 +1,5 @@
 {% set name = "mujoco-python-viewer" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mujoco-python-viewer-{{ version }}.tar.gz
-  sha256: 44cad945d753135e66d5a5e0871f2cbda6d4dc4ad0f5f7353eefaf9b068f9a50
+  sha256: 0602ffd47e14e84b90196e09f45bc353a6339dee069fdd70ebb0253913eb849d
 
 build:
   noarch: python
